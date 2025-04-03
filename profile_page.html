@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>실습 예제: 취업용 프로필 페이지 제작</title>
+        <script
+            src="https://kit.fontawesome.com/e2f70215e5.js"
+            crossorigin="anonymous"
+        ></script>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                color: black;
+            }
+            ul,
+            ol {
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+            }
+        </style>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>실습 예제: 취업용 프로필 페이지 제작</title>
-</head>
-
-<body>
-    <!-- 
+    <body>
+        <!-- 
     자기 소개 페이지 컨텐츠 구성
     header 영역 공동 컨텐츠 div
     - 페이지 로고 h1>a
@@ -26,17 +43,58 @@
     - 카피라이트 p
     -->
 
-    <div>
-        <hl><a href="#" title="인트로 페이지로 이동">Ho-YOUNG JUNG</a></hl>
-        <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">My works</a></li>
-            <li><a href="#">Diary</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-    </div>
-    
-</body>
+        <div>
+            <!-- 헤더 영역 -->
+            <div>
+                <hl
+                    ><a href="#" title="인트로 페이지로 이동"
+                        >HO-YOUNG JUNG</a
+                    ></hl
+                >
+                <ul>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">My works</a></li>
+                    <li><a href="#">Diary</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
 
+            <!-- 컨텐츠 영역 -->
+            <div>
+                <hi>정호영</hi>
+                <img src="pic/picUser.jpg" alt="정호영 프로필 이미지" />
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur beatae perspiciatis ex dolorum odio minus neque
+                    deleniti minima eaque! Aperiam adipisci, alias accusantium
+                    molestiae minima ex architecto, similique tempore natus
+                    placeat blanditiis mollitia officiis iure cupiditate
+                    aspernatur deleniti totam quod laudantium laboriosam quas
+                    atque. Itaque et cupiditate numquam rem, a perferendis illum
+                    id facere consectetur debitis reiciendis, non laudantium,
+                    impedit eligendi quaerat. Aspernatur quae aliquid nostrum
+                    amet harum laudantium, corporis neque deleniti pariatur
+                    eveniet vitae mollitia officiis, facere cumque quidem?
+                </p>
+                <a href=""></a>
+            </div>
+
+            <!-- 푸터 영역 -->
+            <div>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <p>2025 jung ho young &copy; All rights reserved.</p>
+            </div>
+        </div>
+    </body>
 </html>
